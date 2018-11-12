@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'bankie_Example' do
+  pod 'bankie', :path => '../'
+
+  target 'bankie_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
